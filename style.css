@@ -19,7 +19,7 @@ h1, h2 {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 20px; 
+  padding: 10px; 
   gap: 15px; 
   background-color: white; 
   border-radius: 8px; 
@@ -84,7 +84,7 @@ h1, h2 {
 table {
   width: 100%;
   border-collapse: collapse;
-  table-layout: fixed;
+  /* table-layout: fixed; */
   overflow-x: auto;
   display: block;
   background-color: white; 
@@ -177,4 +177,5 @@ tfoot td {
     margin-top: 10px;
   }
 }
+
 
