@@ -33,8 +33,7 @@ def create_expense():
     expense = add_expense_data(category, amount, date)
     return jsonify(expense), 201
 
-   # Add similar routes for UPDATE and DELETE
-
 if __name__ == '__main__':
     app.run(debug=True)
+
    
